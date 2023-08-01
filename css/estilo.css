@@ -1,0 +1,47 @@
+/* RESET DE ESTILOS */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* HEADER */
+.logotipo{
+    width: 300px;
+}
+.fuentes{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    text-transform: uppercase;
+}
+.fuentes li a:hover{
+    background-color: black;
+    color: #fff;
+}
+.tamañoImg{
+    width: 350px;
+    object-fit: cover;
+}
+header{
+    border-bottom: 1px solid black;
+}
+.tituloPaginas{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+.botonColor{
+    background-color: black;
+    color: #fff;
+}
+.botonColor:hover{
+    background-color: rgb(18, 22, 22);
+    color: #fff;
+}
+footer{
+    border-top: 1px solid black;
+    text-align: center;
+    margin: 20px;
+    padding: 20px
+}
